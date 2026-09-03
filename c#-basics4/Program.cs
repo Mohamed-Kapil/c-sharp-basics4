@@ -36,6 +36,14 @@
             #endregion
 
             #region 4 question
+
+            static void PrintBookTitle(string title)
+            {
+                Console.WriteLine("Book title: " + title);
+            }
+
+                PrintBookTitle("Clean Code");
+            
             #endregion
 
             #region 5 question
