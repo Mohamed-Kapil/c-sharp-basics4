@@ -148,7 +148,19 @@
             #endregion
 
             #region 11 question
+
+            static void PrintAllTitles(params string[] titles)
+            {
+                foreach (string title in titles)
+                {
+                    Console.WriteLine(title);
+                }
+            }
+
+            PrintAllTitles("Clean Code", "Refactoring", "The Pragmatic Programmer");
+
             #endregion
+
         }
     }
 }
