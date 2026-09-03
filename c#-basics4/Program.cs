@@ -68,15 +68,27 @@
                 pricess[0] = pricess[0] - 5;
             }
 
-                double[] pricess = { 25.5, 40.0 };
+            double[] pricess = { 25.5, 40.0 };
 
-                ApplyDiscount(pricess);
+            ApplyDiscount(pricess);
 
-                Console.WriteLine(pricess[0]);
-            
+            Console.WriteLine(pricess[0]);
+
             #endregion
 
             #region 7 question
+
+            static void AddBonusPagesByRef(ref int pagess)
+            {
+                pagess = pagess + 50;
+            }
+
+                int pagess = 400;
+
+                AddBonusPagesByRef(ref pagess);
+
+                Console.WriteLine(pagess);
+         
             #endregion
 
             #region 8 question
