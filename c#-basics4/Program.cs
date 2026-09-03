@@ -53,15 +53,27 @@
                 pages = pages + 50;
             }
 
-                int pages = 400;
+            int pages = 400;
 
-                AddBonusPages(pages);
+            AddBonusPages(pages);
 
-                Console.WriteLine(pages);
-            
+            Console.WriteLine(pages);
+
             #endregion
 
             #region 6 question
+
+            static void ApplyDiscount(double[] pricess)
+            {
+                pricess[0] = pricess[0] - 5;
+            }
+
+                double[] pricess = { 25.5, 40.0 };
+
+                ApplyDiscount(pricess);
+
+                Console.WriteLine(pricess[0]);
+            
             #endregion
 
             #region 7 question
