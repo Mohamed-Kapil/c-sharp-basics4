@@ -83,15 +83,27 @@
                 pagess = pagess + 50;
             }
 
-                int pagess = 400;
+            int pagess = 400;
 
-                AddBonusPagesByRef(ref pagess);
+            AddBonusPagesByRef(ref pagess);
 
-                Console.WriteLine(pagess);
-         
+            Console.WriteLine(pagess);
+
             #endregion
 
             #region 8 question
+
+            static void ReplaceArray(ref double[] pricessss)
+            {
+                pricessss = new double[] { 10.0, 12.5, 15.0 };
+            }
+
+             double[] pricessss = { 25.5, 40.0 };
+
+             ReplaceArray(ref pricessss);
+
+             Console.WriteLine(pricessss.Length);
+            
             #endregion
 
             #region 9 question
