@@ -13,6 +13,15 @@
             #endregion
 
             #region 2 question
+
+            int[,] shelfCopies =
+              {
+                { 3, 5 },
+                { 1, 4 }
+               };
+
+            Console.WriteLine(shelfCopies[1, 0]);
+
             #endregion
 
             #region 3 question
