@@ -98,18 +98,40 @@
                 pricessss = new double[] { 10.0, 12.5, 15.0 };
             }
 
-             double[] pricessss = { 25.5, 40.0 };
+            double[] pricessss = { 25.5, 40.0 };
 
-             ReplaceArray(ref pricessss);
+            ReplaceArray(ref pricessss);
 
-             Console.WriteLine(pricessss.Length);
-            
+            Console.WriteLine(pricessss.Length);
+
             #endregion
 
             #region 9 question
+
+            static bool TryGetPrice(string title, out double price)
+            {
+                if (title == "Clean Code")
+                {
+                    price = 25.5;
+                    return true;
+                }
+
+                price = 0;
+                return false;
+            }
+
+            double price;
+
+            if (TryGetPrice("Clean Code", out price))
+            {
+                Console.WriteLine(price);
+            }
+
             #endregion
 
             #region 10 question
+
+
             #endregion
 
             #region 11 question
