@@ -127,10 +127,23 @@
                 Console.WriteLine(price);
             }
 
+            static void PrintBookInfo(string title, int pages = 300)
+            {
+                Console.WriteLine("Title: " + title);
+                Console.WriteLine("Pages: " + pages);
+            }
+
+
+            PrintBookInfo("Clean Code");
+
+            PrintBookInfo("Refactoring", 464);
+
+
             #endregion
 
             #region 10 question
 
+           
 
             #endregion
 
