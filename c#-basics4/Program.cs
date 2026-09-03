@@ -25,6 +25,14 @@
             #endregion
 
             #region 3 question
+
+            static void PrintWelcomeMessage()
+            {
+                Console.WriteLine("Welcome to the Library!");
+            }
+
+            PrintWelcomeMessage();
+
             #endregion
 
             #region 4 question
